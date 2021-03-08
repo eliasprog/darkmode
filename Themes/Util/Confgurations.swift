@@ -7,16 +7,6 @@
 
 import UIKit
 
-enum ConfigKeys {
-    case theme
-    var key: String {
-        switch self {
-        case .theme:
-            return "theme"
-        }
-    }
-}
-
 class Configurations {
 
     private static var configurations: Configurations?

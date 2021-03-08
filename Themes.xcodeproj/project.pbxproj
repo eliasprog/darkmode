@@ -14,7 +14,8 @@
 		DE9CCE0825F69D5A00FEB78A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9CCE0725F69D5A00FEB78A /* Assets.xcassets */; };
 		DE9CCE0B25F69D5A00FEB78A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9CCE0925F69D5A00FEB78A /* LaunchScreen.storyboard */; };
 		DE9CCE1525F69DF100FEB78A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9CCE1425F69DF100FEB78A /* UIColor.swift */; };
-		DE9CCE2225F6CD7000FEB78A /* ConfgurationSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9CCE2125F6CD7000FEB78A /* ConfgurationSets.swift */; };
+		DE9CCE2225F6CD7000FEB78A /* Confgurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9CCE2125F6CD7000FEB78A /* Confgurations.swift */; };
+		DE9CCE2725F6E64500FEB78A /* ConfigKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9CCE2625F6E64500FEB78A /* ConfigKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +28,8 @@
 		DE9CCE0A25F69D5A00FEB78A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE9CCE0C25F69D5A00FEB78A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE9CCE1425F69DF100FEB78A /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
-		DE9CCE2125F6CD7000FEB78A /* ConfgurationSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfgurationSets.swift; sourceTree = "<group>"; };
+		DE9CCE2125F6CD7000FEB78A /* Confgurations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Confgurations.swift; sourceTree = "<group>"; };
+		DE9CCE2625F6E64500FEB78A /* ConfigKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +86,8 @@
 		DE9CCE2025F6CD4000FEB78A /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				DE9CCE2125F6CD7000FEB78A /* ConfgurationSets.swift */,
+				DE9CCE2125F6CD7000FEB78A /* Confgurations.swift */,
+				DE9CCE2625F6E64500FEB78A /* ConfigKeys.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -159,11 +162,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE9CCE2225F6CD7000FEB78A /* ConfgurationSets.swift in Sources */,
+				DE9CCE2225F6CD7000FEB78A /* Confgurations.swift in Sources */,
 				DE9CCE0325F69D5800FEB78A /* ViewController.swift in Sources */,
 				DE9CCDFF25F69D5800FEB78A /* AppDelegate.swift in Sources */,
 				DE9CCE0125F69D5800FEB78A /* SceneDelegate.swift in Sources */,
 				DE9CCE1525F69DF100FEB78A /* UIColor.swift in Sources */,
+				DE9CCE2725F6E64500FEB78A /* ConfigKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
