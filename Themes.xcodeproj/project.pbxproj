@@ -62,14 +62,11 @@
 		DE9CCDFD25F69D5800FEB78A /* Themes */ = {
 			isa = PBXGroup;
 			children = (
-				DE9CCE2025F6CD4000FEB78A /* Util */,
+				DE9CCE2B25F6E72900FEB78A /* Shared */,
 				DE9CCE1325F69DD400FEB78A /* Extension */,
-				DE9CCDFE25F69D5800FEB78A /* AppDelegate.swift */,
-				DE9CCE0025F69D5800FEB78A /* SceneDelegate.swift */,
-				DE9CCE0225F69D5800FEB78A /* ViewController.swift */,
-				DE9CCE0425F69D5800FEB78A /* Main.storyboard */,
-				DE9CCE0725F69D5A00FEB78A /* Assets.xcassets */,
-				DE9CCE0925F69D5A00FEB78A /* LaunchScreen.storyboard */,
+				DE9CCE2025F6CD4000FEB78A /* Util */,
+				DE9CCE2A25F6E72200FEB78A /* Controller */,
+				DE9CCE2925F6E71800FEB78A /* View */,
 				DE9CCE0C25F69D5A00FEB78A /* Info.plist */,
 			);
 			path = Themes;
@@ -90,6 +87,33 @@
 				DE9CCE2625F6E64500FEB78A /* ConfigKeys.swift */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		DE9CCE2925F6E71800FEB78A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE9CCE0925F69D5A00FEB78A /* LaunchScreen.storyboard */,
+				DE9CCE0425F69D5800FEB78A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE9CCE2A25F6E72200FEB78A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE9CCE0225F69D5800FEB78A /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DE9CCE2B25F6E72900FEB78A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DE9CCE0725F69D5A00FEB78A /* Assets.xcassets */,
+				DE9CCDFE25F69D5800FEB78A /* AppDelegate.swift */,
+				DE9CCE0025F69D5800FEB78A /* SceneDelegate.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
